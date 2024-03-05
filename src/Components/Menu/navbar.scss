@@ -1,0 +1,33 @@
+.navbar{
+    background-color: black;
+    .navcontrol{
+        margin-top: 50px;
+    }
+    .navbar-collapse{
+        display: flex;
+        justify-content: center;
+        .navbar-nav{
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 21px;
+    
+            li{
+                width: 20%;
+            }
+            a{
+                background-color: rgb(255, 255, 255);
+                border-radius: 10px;
+                text-align: center;
+                font-weight: bold;
+                font-size: 22px;
+                box-shadow: 14px 9px 1px 2px blue;
+            }
+
+
+            a:hover{
+                box-shadow: 14px 9px 1px 2px rgba(0, 0, 255, 0.568);
+            } 
+        }
+    }
+}
