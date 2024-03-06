@@ -1,0 +1,17 @@
+.content-presentation-control{
+    display: flex;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 190vh;
+
+    .my-bg{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 50%;
+        height: 500px;
+        margin-left: 10%;
+    }
+
+}

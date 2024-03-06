@@ -3,14 +3,17 @@ import FooterBottom from './Components/Footer/footer.html';
 import Body from './Components/Body/body.html';
 import { BrowserRouter} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './app.scss';
 
 
 
 function App() {
   return (
     <BrowserRouter>
-      <TopNav/>
-      <Body/>
+      <div className='background-all'>
+        <TopNav/>
+        <Body/>
+      </div>
       <FooterBottom/>
     </BrowserRouter>
   );
